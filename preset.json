@@ -1,0 +1,30 @@
+{
+    "useConfigFiles": false,
+    "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "vue-cli-plugin-vuetify": {
+            "preset": "configure",
+            "replaceComponents": true,
+            "iconFont": "mdi",
+            "installFonts": false,
+            "locale": "en",
+            "useAlaCarte": false,
+            "useCustomProperties": false,
+            "usePolyfill": false,
+            "useTheme": false
+        },
+        "vue-cli-plugin-axios": {},
+        "@vue/cli-plugin-pwa": {},
+        "@vue/cli-plugin-eslint": {
+            "config": "base",
+            "lintOn": [
+                "save"
+            ]
+        },
+        "@vue/cli-plugin-unit-jest": {},
+        "@vue/cli-plugin-e2e-cypress": {}
+    },
+    "router": true,
+    "routerHistoryMode": false,
+    "vuex": true
+}
